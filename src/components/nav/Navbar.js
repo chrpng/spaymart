@@ -8,11 +8,11 @@ const Navbar = () => {
     <nav>
       <img className="logo" src={logo} alt="logo"/>
       <ul>
-        <li><NavLink exact to="/">Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/volunteer">Help Out</NavLink></li>
-        <li><NavLink to="/events">Events</NavLink></li>
-        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><NavLink exact to={process.env.PUBLIC_URL + "/"}>Home</NavLink></li>
+        <li><NavLink to={process.env.PUBLIC_URL + "/about"}>About</NavLink></li>
+        <li><NavLink to={process.env.PUBLIC_URL + "/volunteer"}>Help Out</NavLink></li>
+        <li><NavLink to={process.env.PUBLIC_URL + "/events"}>Events</NavLink></li>
+        <li><NavLink to={process.env.PUBLIC_URL + "//contact"}>Contact</NavLink></li>
       </ul>
     </nav>
   );

@@ -12,8 +12,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/"> <Home /> </Route>
-        <Route path="/about"> <About /> </Route>
+        <Route exact path={process.env.PUBLIC_URL + "/"}> <Home /> </Route>
+        <Route path={process.env.PUBLIC_URL + "/about"}> <About /> </Route>
       </Switch>
     </BrowserRouter>
   )
