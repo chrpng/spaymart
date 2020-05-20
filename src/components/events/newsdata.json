@@ -1,0 +1,16 @@
+{
+  "newsJson": [
+    {
+      "title": "Support Spaymart for GiveNOLA 2015!",
+      "date": "April 7, 2015",
+      "body": "We have some exciting news to share with you. On May 5th, thousands of residents in the Greater New Orleans area will show support for their favorite nonprofit organizations and come together for a day of giving during GiveNOLA Day, hosted by the Greater New Orleans Foundation. Every dollar donated to SpayMart, from midnight to midnight, on May 5th will be increased with additional “lagniappe” dollars provided by the Greater New Orleans Foundation and generous GiveNOLA Day sponsors.",
+      "imgSrc": "news_0000.png"
+    },
+    {
+      "title": "Midnight Express - Black Cat Adoption Event",
+      "date": "February 26, 2015",
+      "body": "This year, during our Midnight Express adoption promotion, SpayMart will showcase black cats to give them their best chance at being adopted. This event will highlight adorable, adoptable black cats and kittens. All cats will be sterilized, vaccinated, micro chipped and combo tested for FeLV/FIV. SpayMart will reduce adoption fees to all qualifying adopters, and each lucky, adopted cat will go home with a bag of complimentary food and toys. There will be door prizes and raffles.",
+      "imgSrc": "news_0001.png"
+    }
+  ]
+}

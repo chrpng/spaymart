@@ -1,0 +1,19 @@
+@import "./../../variables";
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.section-title {
+  display: inline-block;
+  color: white;
+  background-color: $primary;
+  padding: 10px 14px;
+}
+
+.cat-img-container {
+  width: 170px;
+  height: 340px;
+  overflow: hidden;
+}

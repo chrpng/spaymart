@@ -10,9 +10,9 @@ const Navbar = () => {
       <ul>
         <li><NavLink exact to={process.env.PUBLIC_URL + "/"}>Home</NavLink></li>
         <li><NavLink to={process.env.PUBLIC_URL + "/about"}>About</NavLink></li>
-        <li><NavLink to={process.env.PUBLIC_URL + "/volunteer"}>Help Out</NavLink></li>
+        <li><NavLink to={process.env.PUBLIC_URL + "/help"}>Help Out</NavLink></li>
         <li><NavLink to={process.env.PUBLIC_URL + "/events"}>Events</NavLink></li>
-        <li><NavLink to={process.env.PUBLIC_URL + "//contact"}>Contact</NavLink></li>
+        <li><NavLink to={process.env.PUBLIC_URL + "/contact"}>Contact</NavLink></li>
       </ul>
     </nav>
   );

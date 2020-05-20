@@ -1,26 +1,16 @@
-import React from 'react';
-import { Switch, Route, useLocation } from 'react-router-dom';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
-
-import './reset.css';
-import './App.scss';
-import Navbar from './components/nav/Navbar';
-import Footer from './components/nav/Footer';
+import React from "react";
+import { Switch, Route, withRouter } from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Help from './components/help/Help';
-// import Container from './Container';
 
-function App() {
-  let location = useLocation();
-
+function Container({location}) {
   return (
-    <>
-      <Navbar />
-      <TransitionGroup className="transition-group">
+      <TransitionGroup>
         <CSSTransition
           key={location.key}
-          timeout={{ enter: 3000, exit: 3000 }}
+          timeout={300}
           classNames="fade"
         >
           <Switch location={location}>
@@ -30,9 +20,7 @@ function App() {
           </Switch>
         </CSSTransition>
       </TransitionGroup>
-      <Footer />
-    </>
-  )
+  );
 }
 
-export default App;
+export default withRouter(Container);

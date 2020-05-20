@@ -1,0 +1,39 @@
+@import "./../../variables";
+
+.news {
+  padding: 50px 0;
+
+  .news-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 40px 0 40px;
+    margin-bottom: 20px;
+    
+    .news-text {
+      padding-right: 40px;
+    }
+  }
+
+  h2, h3 {
+    color: $primary;
+  }
+  
+  h2 {
+    padding: 0 40px 20px 40px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid $tertiary;
+  }
+  h3 {
+    padding: 0 0 4px 0;
+  }
+
+  p {
+    padding-left: 8px;
+    padding-right: 8px;
+
+    &.news-date {
+      color: $primary;
+      margin-bottom: 14px;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+@import 'variables';
+
+#root {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  color: $tertiary;
+}
+
+div.transition-group {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fade-enter {
+  position: absolute;
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+button {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+
+/*
+ *  ANIMATIONS
+ */
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 3000ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 3000ms;
+}
+
+.transform-up-enter {
+  transform: translate(50px, 0);
+}
+.transform-up-enter-active {
+  transform: translate(0, 0);
+  transition: transform 1000ms;
+}
+.transform-up-exit {
+  transform: translate(0, 0);
+}
+.transform-up-exit-active {
+  transform: translate(50px, 0);
+  transition: transform 1000ms;
+}

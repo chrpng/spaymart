@@ -1,0 +1,64 @@
+{
+  "cats": [
+    {
+      "name": "Prima",
+      "age": "X",
+      "energy": 4,
+      "friendliness": 4,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, assumenda, dolor velit consequatur at nostrum pariatur culpa accusantium magnam in a accusamus, perferendis excepturi nihil doloremque nisi nemo expedita!",
+      "phone": "XXX-XXXX",
+      "email": "email@email.com",
+      "imgSrc": "cat_0000.png"
+    },
+    {
+      "name": "Pedro",
+      "age": "X",
+      "energy": 3,
+      "friendliness": 4,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, assumenda, dolor velit consequatur at nostrum pariatur culpa accusantium magnam in a accusamus, perferendis excepturi nihil doloremque nisi nemo expedita!",
+      "phone": "XXX-XXXX",
+      "email": "email@email.com",
+      "imgSrc": "cat_0001.png"
+    },
+    {
+      "name": "Coco",
+      "age": "X",
+      "energy": 3,
+      "friendliness": 4,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, assumenda, dolor velit consequatur at nostrum pariatur culpa accusantium magnam in a accusamus, perferendis excepturi nihil doloremque nisi nemo expedita!",
+      "phone": "XXX-XXXX",
+      "email": "email@email.com",
+      "imgSrc": "cat_0002.png"
+    },
+    {
+      "name": "Koko",
+      "age": "X",
+      "energy": 3,
+      "friendliness": 4,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, assumenda, dolor velit consequatur at nostrum pariatur culpa accusantium magnam in a accusamus, perferendis excepturi nihil doloremque nisi nemo expedita!",
+      "phone": "XXX-XXXX",
+      "email": "email@email.com",
+      "imgSrc": "cat_0003.png"
+    },
+    {
+      "name": "Rona",
+      "age": "X",
+      "energy": 3,
+      "friendliness": 4,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, assumenda, dolor velit consequatur at nostrum pariatur culpa accusantium magnam in a accusamus, perferendis excepturi nihil doloremque nisi nemo expedita!",
+      "phone": "XXX-XXXX",
+      "email": "email@email.com",
+      "imgSrc": "cat_0004.png"
+    },
+    {
+      "name": "Butter",
+      "age": "X",
+      "energy": 3,
+      "friendliness": 4,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, assumenda, dolor velit consequatur at nostrum pariatur culpa accusantium magnam in a accusamus, perferendis excepturi nihil doloremque nisi nemo expedita!",
+      "phone": "XXX-XXXX",
+      "email": "email@email.com",
+      "imgSrc": "cat_0005.png"
+    }
+  ]
+}
