@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/spaymart/precache-manifest.b3d5475e19910acecd9ae0b723f77e7a.js"
+  "/spaymart/precache-manifest.105b6bdfa0025976adc343c42b3b55b5.js"
 );
 
 self.addEventListener('message', (event) => {
